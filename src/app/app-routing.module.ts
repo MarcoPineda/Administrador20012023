@@ -4,7 +4,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { GraficasComponent } from './pages/graficas/graficas.component';
-import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PagesComponent } from './pages/pages.component';
 import { ProgressComponent } from './pages/progress/progress.component';
 
@@ -18,7 +18,7 @@ const routes: Routes = [
       { path: 'dashboard', component:DashboardComponent },
       { path: 'progress',component:ProgressComponent},
       { path: 'graficas',component:GraficasComponent},
-         { path: '',redirectTo:'/dashboard',pathMatch: 'full'},
+      { path: '',redirectTo:'/dashboard',pathMatch: 'full'},
     ]
   },
 
